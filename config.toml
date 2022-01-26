@@ -1,7 +1,13 @@
 base_url = "https://nekodjin.org"
 
+default_language = "en"
+
+minify_html = true
 compile_sass = true
 build_search_index = false
+
+external_links_target_blank = true
+external_links_no_referrer  = true
 
 [markdown]
 highlight_code = true

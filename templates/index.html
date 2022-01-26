@@ -1,14 +1,14 @@
 {% extends "base.html" }
 
 {% block title %}
-{{- section.title -}}
+{{- self.title -}}
 {% endblock title %}
 
 {% block body %}
-    <h1 class="title"> {{- section.title -}} </h1>
-    <menu class="home-menu">
+    <h1 class="title"> {{- self.title -}} </h1>
+    <ul class="home-menu">
     {% for elem in extra.menu %}
         <li><a href="{{ elem.1 }}">{{ elem.0 }}</a></li>
     {% endfor %}
-    </menu>
+    </ul>
 {% endblock body %}
