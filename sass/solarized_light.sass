@@ -1,0 +1,30 @@
+@import fonts
+@import sol_light_palette
+
+*
+    transition: 190ms ease-in-out
+
+body
+    @include setfont("Roboto")
+    background-color: $bg-primary
+    color: $content-1
+
+h1.title
+    @include setfont("Roboto Slab", $size: 5rem)
+    color: $content-0
+
+.home-menu
+    list-style: none
+    padding: 0
+
+.home-menu li a
+    @include setfont("Roboto Slab", $size: 3rem)
+    color: $content-1
+    text-decoration: none
+
+.home-menu li a:hover, .home-menu li a:focus
+    color: $yellow
+
+a
+    color: $yellow
+

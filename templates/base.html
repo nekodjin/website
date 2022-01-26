@@ -12,7 +12,7 @@ throw("couldn't find section or page")
 {% set style = self.extra.default_style %}
 {% else %}
 {% set style = "/default.css" %}
-{% }
+{% endif %}
 
 <html lang="{{ self.lang }}">
 
