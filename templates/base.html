@@ -8,6 +8,14 @@
 throw("couldn't find section or page")
 {% endif %}
 
+{% if self.extra.default_theme is defined %}
+{% set theme = self.extra.default_theme %}
+{% elif config.extra.default_theme is defined %}
+{% set theme = config.extra.default_theme %}
+{% else %}
+throw("couldn't find default theme")
+{% endif %}
+
 <html lang="{{ self.lang | safe }}">
 
 <head>
