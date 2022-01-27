@@ -14,4 +14,5 @@ external_links_target_blank = true
 external_links_no_referrer  = true
 
 [extra]
+default_theme = "solarized_light"
 
