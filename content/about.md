@@ -12,7 +12,7 @@ I'm an amateur programmer with experience in [Rust][rs] and [C#][cs]. I enjoy
 writing CLI apps - mostly because I have no experience with GUI or TUI - as well
 as low-level apps, such as emulators and compilers. I also have experience with
 **C**, [Haskell][hs], [Python][py], [F#][fs], assorted **Assembly Languages**,
-and [HTML][html]/[CSS][css]/JavaScript[js], to varying degrees of proficiency.
+and [HTML][html]/[CSS][css]/[JavaScript][js], to varying degrees of proficiency.
 
 I love learning languages, and speak both **English** and **European
 Portuguese** as first languages. I have studied **Latin** for 4 years, and have
