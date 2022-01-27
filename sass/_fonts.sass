@@ -1,0 +1,12 @@
+@mixin gfonts($f)
+    @import url("http://fonts.googleapis.com/css?family=#{$f}")
+
+@mixin setfont($family, $weight: 300, $size: 1em)
+    font-family: $family
+    font-weight: $weight
+    font-size:   $size
+
+@include gfonts("Roboto")
+@include gfonts("Roboto Slab")
+@include gfonts("Roboto Mono")
+
