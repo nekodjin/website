@@ -16,7 +16,7 @@ and [HTML][html]/[CSS][css]/[JavaScript][js], to varying degrees of proficiency.
 
 I love learning languages, and speak both **English** and **European
 Portuguese** as first languages. I have studied **Latin** for 4 years, and have
-been studying **Japanese** for 4 (years and counting). I'm a member of the
+been studying **Japanese** for 4 years (and counting). I'm a member of the
 [Viossa][vp] community, and am currently learning [Toki Pona][tp].
 
 I enjoy **mathematics** and **science**, especially where the two intersect, and
