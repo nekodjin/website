@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+{% if section is defined %}
+{% set self = section %}
+{% elif page %}
+{% set self = page %}
+{% else %}
+throw("couldn't find section or page")
+{% endif %}
+
+{% if self.extra.default_theme is defined %}
+{% set theme = self.extra.default_theme %}
+{% else %}
+{% set theme = "default" %}
+{% endif %}
+
+<html lang="{{ self.lang | safe }}">
+
+<head>
+    <title> {%- block title %}{% endblock title -%} </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/{{ theme | safe }}.css" type="text/css">
+</head>
+
+<body>
+{% block body %}
+{% endblock body %}
+</body>
+
+</html>
+
