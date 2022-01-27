@@ -21,7 +21,7 @@ throw("couldn't find default theme")
 <head>
     <title> {%- block title %}{% endblock title -%} </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/{{ self.extra.theme | safe }}.css" type="text/css">
+    <link rel="stylesheet" href="/{{ theme | safe }}.css" type="text/css">
 </head>
 
 <body>
