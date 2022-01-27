@@ -1,13 +1,16 @@
-@mixin gfonts($f)
-    @import url("http://fonts.googleapis.com/css2?family=#{$f}:wght@100..900")
-    @import url("http://fonts.googleapis.com/css2?family=#{$f}:ital,wght@100..900")
+@mixin gfonts($font, $weight: 400, $italic: false)
+    @import url("http://fonts.googleapis.com/css2?family=#{$font}:#{if($italic, "ital,", "")}wght@#{weight}")
 
-@mixin setfont($family, $weight: 300, $size: 1em)
+@mixin setfont($family, $weight: 400, $size: 1em)
     font-family: $family
     font-weight: $weight
     font-size:   $size
 
 @include gfonts("Roboto")
+@include gfonts("Roboto", $ital: true)
+@include gfonts("Roboto", 300)
+@include gfonts("Roboto", 300, true)
 @include gfonts("Roboto Slab")
+@include gfonts("Roboto Slab", 300)
 @include gfonts("Roboto Mono")
 
