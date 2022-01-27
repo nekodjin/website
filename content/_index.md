@@ -5,8 +5,7 @@ title = "nekodjin"
 [extra]
 
 menu = [
-    [ "about", "/about" ],
-    [ "projects", "/projects" ]
+    [ "about", "/about" ]
 ]
 
 +++
