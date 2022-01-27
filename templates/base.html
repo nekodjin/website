@@ -8,18 +8,18 @@
 throw("couldn't find section or page")
 {% endif %}
 
-{% if self.extra.default_style is defined %}
-{% set style = self.extra.default_style %}
+{% if self.extra.default_theme is defined %}
+{% set theme = self.extra.default_theme %}
 {% else %}
-{% set style = "/default.css" %}
+{% set theme = "default" %}
 {% endif %}
 
-<html lang="{{ self.lang }}">
+<html lang="{{ self.lang | safe }}">
 
 <head>
     <title> {%- block title %}{% endblock title -%} </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="{{ style }}" type="text/css">
+    <link rel="stylesheet" href="/{{ theme | safe }}.css" type="text/css">
 </head>
 
 <body>
@@ -28,3 +28,4 @@ throw("couldn't find section or page")
 </body>
 
 </html>
+
