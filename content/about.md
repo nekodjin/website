@@ -12,6 +12,10 @@ I'm an amateur programmer with experience in [Rust][rs] and [C#][cs]. I enjoy
 creating CLI apps - mostly because I have no experience with GUI or TUI. I also
 enjoy writing low-level apps, such as emulators and compilers.
 
+I love learning languages, and speak both **English** and (European)
+**Portuguese** as first languages. I have studied **Latin** for 4 years, and
+have been studying **Japanese** for 4 years and counting.
+
 
 [rs]: https://rust-lang.org
 [cs]: https://docs.microsoft.com/en-us/dotnet/csharp
