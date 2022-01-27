@@ -10,3 +10,4 @@ menu = [
 
 +++
 
+{% block footer %}{% endblock footer %}
