@@ -1,12 +1,2 @@
 {% extends "base.html" %}
 
-{% block title %}
-{{- self.title -}}
-{% endblock title %}
-
-{% block body %}
-<h1 class="title"> {{- self.title -}} </h1>
-<a href=".." class="back-button">go back</a>
-{{ self.content | safe }}
-{% endblock body %}
-
