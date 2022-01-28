@@ -30,6 +30,8 @@ throw("couldn't find default theme")
 {% block nofooter %}
 <footer>
 {% block footer %}
+    Last updated on {{ now() | date(format="%A, %-d %B %Y") }}.
+    View the source on <a href="https://github.com/nekodjin/website">GitHub</a>.
 {% endblock footer %}
 </footer>
 {% endblock nofooter %}
