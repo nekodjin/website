@@ -19,7 +19,7 @@ throw("couldn't find default theme")
 <html lang="{{ self.lang | safe }}">
 
 <head>
-    <title> {%- block title %}{% endblock title -%} </title>
+    <title> {%- block title %} {{- self.title -}} {% endblock title -%} </title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/{{ theme | safe }}.css" type="text/css">
 </head>
