@@ -27,6 +27,12 @@ throw("couldn't find default theme")
 <body>
 {% block body %}
 {% endblock body %}
+{% block nofooter %}
+<footer>
+{% block footer %}
+{% endblock footer %}
+</footer>
+{% endblock nofooter %}
 </body>
 
 </html>
