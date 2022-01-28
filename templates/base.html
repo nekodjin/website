@@ -25,16 +25,24 @@ throw("couldn't find default theme")
 </head>
 
 <body>
-{% block body %}
-{% endblock body %}
-{% block nofooter %}
-<footer>
-{% block footer %}
-    Last updated on {{ now() | date(format="%A, %-d %B %Y") }}.
-    View the source on <a href="https://github.com/nekodjin/website">GitHub</a>.
-{% endblock footer %}
-</footer>
-{% endblock nofooter %}
+    {% block body %}
+    <header>
+        {% block header %}
+        <h1> {{- self.title -}} </h1>
+        <a href=".." class="back-button">go back</a>
+        {% endblock header %}
+    </header>
+    <div id="content">
+        {% block content %}
+        {{ self.content | safe }}
+        {% endblock content %}
+    </div>
+    <footer>
+        {% block footer %}
+        <p>Last updated {{ now() | date(format="%A, %-d %B %Y") }}. View the source on <a href="https://github.com/nekodjin/website">GitHub</a>.</p>
+        {% enblock footer %}
+    </footer>
+    {% endblock body %}
 </body>
 
 </html>
