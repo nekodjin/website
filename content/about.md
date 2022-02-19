@@ -20,8 +20,9 @@ been studying **Japanese** for 4 years (and counting). I'm a member of the
 [Viossa][vp] community, and am currently learning [Toki Pona][tp].
 
 I enjoy **mathematics** and **science**, especially where the two intersect, and
-where I can model that intersection on a computer. At the moment, I'm particularly
-interested in **linear algebra** and **chemistry**.
+where I can model that intersection on a computer. I'm particularly interested
+in **chemistry**. I'm currently working on some **stoichiometry** utilities,
+which will be available on this website when completed.
 
 
 [rs]: https://rust-lang.org

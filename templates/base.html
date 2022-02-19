@@ -19,30 +19,14 @@ throw("couldn't find default theme")
 <html lang="{{ self.lang | safe }}">
 
 <head>
-    <title> {%- block title %} {{- self.title -}} {% endblock title -%} </title>
+    <title> {%- block title %}{% endblock title -%} </title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/{{ theme | safe }}.css" type="text/css">
 </head>
 
 <body>
-    {% block body %}
-    <header>
-        {% block header %}
-        <h1 class="title"> {{- self.title -}} </h1>
-        <a href=".." class="back-button">go back</a>
-        {% endblock header %}
-    </header>
-    <div id="content">
-        {% block content %}
-        {{ self.content | safe }}
-        {% endblock content %}
-    </div>
-    <footer>
-        {% block footer %}
-        <p>Last updated {{ now() | date(format="%A, %-d %B %Y") }}. View the source on <a href="https://github.com/nekodjin/website">GitHub</a>.</p>
-        {% endblock footer %}
-    </footer>
-    {% endblock body %}
+{% block body %}
+{% endblock body %}
 </body>
 
 </html>
