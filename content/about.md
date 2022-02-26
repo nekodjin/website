@@ -6,7 +6,12 @@ title = "about"
 
 Hi there! I'm **Avery**, and my pronouns are **she/her**. I'm a
 Portuguese-American student from the East Coast of the United States. You can
-find me on my [GitHub][gh], and on Discord as **nekodjin#0001**.
+find me on the following platforms:
+-   GitHub, as [nekodjin][gh]
+-   Discord, as **nekodjin#0001**
+-   Twitter, as [@nekodjin][tw]
+
+--------------------------------------------------------------------------------
 
 I'm an amateur programmer with experience in [Rust][rs] and [C#][cs]. I enjoy
 writing CLI apps - mostly because I have no experience with GUI or TUI - as well
@@ -25,6 +30,8 @@ in **chemistry**. I'm currently working on some **stoichiometry** utilities,
 which will be available on this website when completed.
 
 
+[gh]: https://github.com/nekodjin
+[tw]: https://twitter.com/nekodjin
 [rs]: https://rust-lang.org
 [cs]: https://docs.microsoft.com/en-us/dotnet/csharp
 [hs]: https://haskell.org
@@ -33,7 +40,6 @@ which will be available on this website when completed.
 [js]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 [css]: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 [html]: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
-[gh]: https://github.com/nekodjin
 [tp]: https://tokipona.org
 [vp]: https://vikoli.org
 
