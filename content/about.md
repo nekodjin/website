@@ -11,8 +11,6 @@ find me on the following platforms:
 -   Discord, as **nekodjin#0001**
 -   Twitter, as [@nekodjin][tw]
 
---------------------------------------------------------------------------------
-
 I'm an amateur programmer with experience in [Rust][rs] and [C#][cs]. I enjoy
 writing CLI apps - mostly because I have no experience with GUI or TUI - as well
 as low-level apps, such as emulators and compilers. I also have experience with
