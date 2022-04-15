@@ -8,7 +8,7 @@ Hi there! I'm **Avery**, and my pronouns are **she/her**. I'm a
 Portuguese-American student from the East Coast of the United States. You can
 find me on the following platforms:
 -   GitHub, as [nekodjin][gh]
--   Discord, as **nekodjin#0001**
+-   Discord, as **nekodjin#1813**
 -   Twitter, as [@nekodjin][tw]
 
 I'm an amateur programmer with experience in [Rust][rs] and [C#][cs]. I enjoy
@@ -24,8 +24,11 @@ been studying **Japanese** for 4 years (and counting). I'm a member of the
 
 I enjoy **mathematics** and **science**, especially where the two intersect, and
 where I can model that intersection on a computer. I'm particularly interested
-in **chemistry**. I'm currently working on some **stoichiometry** utilities,
-which will be available on this website when completed.
+in **chemistry**.
+
+My current obsession is language development - the art of designing a
+programming language, as well as implementing a compiler or an interpreter for
+it.
 
 
 [gh]: https://github.com/nekodjin
