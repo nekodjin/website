@@ -7,33 +7,24 @@ title = "about"
 Hi there! I'm **Avery**, and my pronouns are **she/her**. I'm a
 Portuguese-American student from the East Coast of the United States. You can
 find me on the following platforms:
--   Discord, as **nekodjin#1813**
+-   Discord, as **nekodjin**
 -   Fediverse, as **@nekodjin@snug.moe**
 -   GitHub, as [nekodjin][gh]
--   Twitter, as [@nekodjin][tw]
+-   The WCA, as [2024ROSE06][wca]
 
-I'm an amateur programmer with experience predominantly in [Rust][rs]. I enjoy
-writing CLI/TUI apps as well as low-level apps such as emulators and compilers.
-I also have experience with **C**, [Haskell][hs], [Python][py], [C#][cs],
-[F#][fs], assorted **Assembly Languages**, and [HTML][html] / [CSS][css] /
-[JavaScript][js], to varying degrees of proficiency.
+I'm an amateur programmer with experience in [Rust][rs]. I enjoy writing CLI/TUI
+apps as well as low-level tools like emulators and compilers. I also have
+experience with **C**, [Haskell][hs], [Python][py], [C#][cs], [F#][fs], assorted
+**Assembly Languages**, and [HTML][html] / [CSS][css] / [JavaScript][js], to varying
+degrees of proficiency.
 
-I love learning languages, and speak both **English** and **European
-Portuguese** as first languages. I have studied **Latin** for 4 years, and have
-been studying **Japanese** for 5 years (and counting). I'm a member of the
-[Viossa][vp] community, and am currently learning [Toki Pona][tp].
-
-I enjoy **mathematics** and **science**, especially where the two intersect, and
-where I can model that intersection on a computer. I'm especially interested
-in **chemistry**.
-
-My current obsession is **language development** - the art of designing a
-programming language, as well as implementing a compiler or an interpreter for
-it.
+I love learning languages, and am a native speaker of both **English** and
+**European Portuguese**. I have studied **Latin** for 4 years, **Japanese**
+for 5 years, and **Ancient Greek** for 1 year.
 
 
 [gh]: https://github.com/nekodjin
-[tw]: https://twitter.com/nekodjin
+[wca]: https://www.worldcubeassociation.org/persons/2024ROSE06
 [rs]: https://rust-lang.org
 [cs]: https://docs.microsoft.com/en-us/dotnet/csharp
 [hs]: https://haskell.org
