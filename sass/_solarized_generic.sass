@@ -1,16 +1,16 @@
-@import fonts
+@use "fonts"
 // @import sol_syn_hi
 
 *
     transition: 190ms ease-in-out
 
 body
-    @include setfont("Roboto", 300)
+    @include fonts.setfont("Roboto", 300)
     background-color: $bg-primary
     color: $content-1
 
 .home-title
-    @include setfont("Roboto Slab", 300, 5rem)
+    @include fonts.setfont("Roboto Slab", 300, 5rem)
     color: $content-0
     margin-top: 25vh
     margin-left: 25vw
@@ -22,7 +22,7 @@ body
     margin-left: 25vw
 
     li a
-        @include setfont("Roboto Slab", 300, 3rem)
+        @include fonts.setfont("Roboto Slab", 300, 3rem)
         color: $content-1
         text-decoration: none
 
@@ -30,7 +30,7 @@ body
             color: $yellow
 
 .title
-    @include setfont("Roboto Slab", 300, 4rem)
+    @include fonts.setfont("Roboto Slab", 300, 4rem)
     color: $content-0
     margin-top: 5vh
     margin-left: 20vw
@@ -38,12 +38,12 @@ body
     margin-bottom: 0
 
 .back-button
-    @include setfont("Roboto Slab", 200, 1.2rem)
+    @include fonts.setfont("Roboto Slab", 200, 1.2rem)
     padding-left: 10px
     color: $content-0
 
 body > *
-    @include setfont("Roboto", 300, 1.5rem)
+    @include fonts.setfont("Roboto", 300, 1.5rem)
     margin-left: 20vw
     margin-right: 20vw
     margin-bottom: 1vh
@@ -53,7 +53,7 @@ strong
     color: $violet
 
 .z-code
-    @include setfont("Roboto Mono", $size: 1.5rem)
+    @include fonts.setfont("Roboto Mono", $size: 1.5rem)
     padding: 1vw
     background-color: $bg-secondary
 
